@@ -1,6 +1,5 @@
 #!/bin/bash
-for i in {1..2}
+for i in {4..405}
 do
-   # echo "Welcome $i times"
    ng generate component simple-component$i
 done
